@@ -16,7 +16,11 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Rohit9817&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit9817&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
    
-  ![snake gif](https://github.com/Rohit9817/Rohit9817/blob/output/github-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 ---
 
 <!--
