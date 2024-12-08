@@ -17,34 +17,6 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit9817&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
 ---
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
-
-      - name: Generate Snake Animation
-        uses: Platane/snk@v2
-        with:
-          github_user_name: <Rohit 9817> to# Replace with your GitHub username
-          outputs: dist/snake.svg
-
-      - name: Upload Snake Animation
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-animation
-          path: dist/snake.svg
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 <!--
 **Rohit9817/Rohit9817** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
